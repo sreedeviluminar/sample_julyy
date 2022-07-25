@@ -36,6 +36,10 @@ void main(){
   print('list8 = $list8');
   list4.sort();
   print(list4);
-
+  list2.forEach(
+          (element) {
+            print(element);
+          }
+          );
 
 }
